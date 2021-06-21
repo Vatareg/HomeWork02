@@ -7,10 +7,13 @@ public class Main {
 
         boolean unsStep1 = step1HomeWork02(10, 4);
         System.out.println(unsStep1);
+        System.out.println();
         step2HomeWork02(-50);
+        System.out.println();
         boolean unsStep3 = step3HomeWork02(-60);
         System.out.println(unsStep3);
         step4HomeWork02("СВАБОДУ ПАПУГАЯМ", 6);
+        System.out.println();
         boolean unsStep5 = step5HomeWork02(800);
         System.out.println(unsStep5);
     }
@@ -68,7 +71,6 @@ public class Main {
                 } else {
                     unsverStep5 = false;
                 }
-
             }
         }
         return unsverStep5;
